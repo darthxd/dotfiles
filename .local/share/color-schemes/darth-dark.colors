@@ -1,0 +1,129 @@
+[General]
+ColorScheme=BreezeDark
+Name=darth-dark
+shadeSortColumn=true
+
+[ColorEffects%3ADisabled]
+Color=56, 56, 56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects%3AInactive]
+ChangeSelectionColor=true
+Color=112, 111, 110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[ColorScheme]
+active_colors=#fff2f4f8, #ff202020, #ffaeaeae, #ff8d8d8d, #ff757575, #ff565656, #fff2f4f8, #ffffffff, #fff2f4f8, #ff111111, #ff0a0a0a, #ff8d8d8d, #ffec144c, #fffcfcfc, #ff1d99f3, #ff9b59b6, #ff161616, #ff000000, #ff161616, #fffcfcfc, #ffa1a9b1, #ffec144c
+disabled_colors=#ff575859, #ff1f1f1f, #ffaeaeae, #ff8d8d8d, #ff757575, #ff565656, #ff5b5c5d, #ffffffff, #ff656567, #ff101010, #ff0a0a0a, #ff8d8d8d, #ff0a0a0a, #ff575859, #ff143e5c, #ff3e2847, #ff151515, #ff000000, #ff161616, #fffcfcfc, #ff404346, #ff0a0a0a
+inactive_colors=#fff2f4f8, #ff202020, #ffaeaeae, #ff8d8d8d, #ff757575, #ff565656, #fff2f4f8, #ffffffff, #fff2f4f8, #ff111111, #ff0a0a0a, #ff8d8d8d, #ff535353, #fff2f4f8, #ff1d99f3, #ff9b59b6, #ff161616, #ff000000, #ff161616, #fffcfcfc, #ffa1a9b1, #ff535353
+
+[Colors%3AButton]
+BackgroundAlternate=30, 87, 116
+BackgroundNormal=32, 32, 32
+DecorationFocus=61, 174, 233
+DecorationHover=61, 174, 233
+ForegroundActive=61, 174, 233
+ForegroundInactive=161, 169, 177
+ForegroundLink=29, 153, 243
+ForegroundNegative=218, 68, 83
+ForegroundNeutral=246, 116, 0
+ForegroundNormal=242, 244, 248
+ForegroundPositive=39, 174, 96
+ForegroundVisited=155, 89, 182
+
+[Colors%3AComplementary]
+BackgroundAlternate=30, 87, 116
+BackgroundNormal=42, 46, 50
+DecorationFocus=61, 174, 233
+DecorationHover=61, 174, 233
+ForegroundActive=61, 174, 233
+ForegroundInactive=161, 169, 177
+ForegroundLink=29, 153, 243
+ForegroundNegative=218, 68, 83
+ForegroundNeutral=246, 116, 0
+ForegroundNormal=252, 252, 252
+ForegroundPositive=39, 174, 96
+ForegroundVisited=155, 89, 182
+
+[Colors%3AHeader]
+BackgroundAlternate=22, 22, 22
+BackgroundNormal=22, 22, 22
+ForegroundNegative=236, 20, 76
+
+[Colors%3ASelection]
+BackgroundAlternate=30, 87, 116
+BackgroundNormal=15, 98, 254
+DecorationFocus=61, 174, 233
+DecorationHover=61, 174, 233
+ForegroundActive=252, 252, 252
+ForegroundInactive=161, 169, 177
+ForegroundLink=253, 188, 75
+ForegroundNegative=176, 55, 69
+ForegroundNeutral=198, 92, 0
+ForegroundNormal=252, 252, 252
+ForegroundPositive=23, 104, 57
+ForegroundVisited=155, 89, 182
+
+[Colors%3ATooltip]
+BackgroundAlternate=38, 38, 38
+BackgroundNormal=22, 22, 22
+DecorationFocus=61, 174, 233
+DecorationHover=61, 174, 233
+ForegroundActive=61, 174, 233
+ForegroundInactive=161, 169, 177
+ForegroundLink=29, 153, 243
+ForegroundNegative=218, 68, 83
+ForegroundNeutral=246, 116, 0
+ForegroundNormal=252, 252, 252
+ForegroundPositive=39, 174, 96
+ForegroundVisited=155, 89, 182
+
+[Colors%3AView]
+BackgroundAlternate=22, 22, 22
+BackgroundNormal=17, 17, 17
+DecorationFocus=61, 174, 233
+DecorationHover=61, 174, 233
+ForegroundActive=61, 174, 233
+ForegroundInactive=161, 169, 177
+ForegroundLink=29, 153, 243
+ForegroundNegative=218, 68, 83
+ForegroundNeutral=246, 116, 0
+ForegroundNormal=242, 244, 248
+ForegroundPositive=39, 174, 96
+ForegroundVisited=155, 89, 182
+
+[Colors%3AWindow]
+BackgroundAlternate=38, 38, 38
+BackgroundNormal=10, 10, 10
+DecorationFocus=61, 174, 233
+DecorationHover=61, 174, 233
+ForegroundActive=61, 174, 233
+ForegroundInactive=161, 169, 177
+ForegroundLink=29, 153, 243
+ForegroundNegative=238, 83, 150
+ForegroundNeutral=246, 116, 0
+ForegroundNormal=242, 244, 248
+ForegroundPositive=39, 174, 96
+ForegroundVisited=155, 89, 182
+
+[KDE]
+contrast=4
+
+[WM]
+activeBackground=49, 54, 59
+activeBlend=252, 252, 252
+activeForeground=252, 252, 252
+inactiveBackground=42, 46, 50
+inactiveBlend=161, 169, 177
+inactiveForeground=161, 169, 177
