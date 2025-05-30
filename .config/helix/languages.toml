@@ -1,0 +1,100 @@
+[language-server.gopls]
+commang = "gopls"
+
+[language-server.pyright]
+command = "pyright-langserver"
+args = ["--stdio"]
+
+[language-server.emmet-lsp]
+command = "emmet-language-server"
+args = ["--stdio"]
+
+[language-server.eslint]
+command = "vscode-eslint-language-server"
+args = ["--stdio"]
+
+[language-server.tailwindcss-ls]
+command = "tailwindcss-language-server"
+args = ["--stdio"]
+
+[language-server.jdtls]
+command = "jdtls"
+args = ["--jvm-arg=-javaagent:/home/gabrieldarth/.java/lombok.jar"]
+
+[language-server.csharp-ls]
+command = "csharp-ls"
+
+[language-server.kotlin-lsp]
+command = "kotlin-lsp"
+args = ["--stdio"]
+
+[[language]]
+name = "kotlin"
+file-types = ["kt"]
+roots = ["build.gradle", "build.gradle.kts", "pom.xml"]
+language-servers = ["kotlin-lsp"]
+
+[[language]]
+name = "c-sharp"
+language-servers = ["csharp-ls"]
+
+[[language]]
+name = "rust"
+file-types = ["rs"]
+language-servers = [ "rust-analyzer" ]
+auto-format = true
+
+[[language]]
+name = "go"
+roots = ["go.work", "go.mod"]
+formatter = {command="goimports"}
+comment-token = "//"
+language-servers = ["gopls"]
+auto-format = true
+
+[[language]]
+name = "python"
+language-servers = ["pyright"]
+formatter = {command = 'black', args = ["--quiet", "-"]}
+auto-format = true
+
+[[language]]
+name = "html"
+language-servers = ["vscode-html-language-server" , "emmet-lsp" , "tailwindcss-ls"]
+formatter = { command = 'prettier', args = ["--parser", "html"] }
+auto-format = false
+
+[[language]]
+name = "css"
+language-servers = [ "vscode-css-language-server", "emmet-ls" ]
+formatter = { command = 'prettier', args = ["--parser", "css"] }
+auto-format = true
+
+[[language]]
+name = "json"
+formatter = { command = 'prettier', args = ["--parser", "json"] }
+auto-format = true
+
+[[language]]
+name = "typescript"
+language-servers = [ "typescript-language-server" , "vscode-eslint-language-server"]
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+auto-format = true
+
+[[language]]
+name = "javascript"
+language-servers = [ "typescript-language-server" , "vscode-eslint-language-server"]
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+auto-format = true
+
+[[language]]
+name = "tsx"
+language-servers = [ "typescript-language-server" , "vscode-eslint-language-server" , "emmet-lsp" , "tailwindcss-ls"]
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+auto-format = true
+
+[[language]]
+name = "jsx"
+language-servers = [ "typescript-language-server" , "vscode-eslint-language-server" , "emmet-lsp" , "tailwindcss-ls"]
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+auto-format = true

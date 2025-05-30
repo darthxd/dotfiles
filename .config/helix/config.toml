@@ -1,0 +1,56 @@
+theme = "darthbuddy"
+
+[editor]
+line-number = "relative"
+mouse = false
+bufferline = "multiple"
+soft-wrap.enable = true
+gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"] 
+
+[keys.normal]
+# ";" = "command_mode"
+esc = ["collapse_selection", "keep_primary_selection"]
+"*" = ["search_selection", "search_next"]
+n   = "move_prev_word_end"
+'0' = "goto_line_start"
+'$' = "goto_line_end"
+
+# Buffer actions
+A-h = ":bp"
+A-l = ":bn"
+A-w = ":bc"
+
+# Select inside
+A-j = '@t"llmi"'
+A-m = "@t'llmi'"
+A-k = '@t(llmi('
+A-g = '@t{llmi{'
+
+# Split actions
+C-h = "jump_view_left"
+C-l = "jump_view_right"
+C-j = "jump_view_down"
+C-k = "jump_view_up" 
+C-q = "wclose"
+
+# Yazi file explorer
+C-p = [
+  ':sh rm -f /tmp/unique-file',
+  ':insert-output yazi %{buffer_name} --chooser-file=/tmp/unique-file',
+  ':insert-output echo "\x1b[?1049h\x1b[?2004h" > /dev/tty',
+  ':open %sh{cat /tmp/unique-file}',
+  ':redraw',
+]
+
+[keys.normal.space]
+# Vertical and Horizontal split
+'-' = 'hsplit'
+'_' = 'vsplit'
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false

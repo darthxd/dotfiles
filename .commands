@@ -1,0 +1,2 @@
+localectl --no-convert set-x11-keymap us,br
+setxkbmap -layout "us,br" -option grp:alt_shift_toggle

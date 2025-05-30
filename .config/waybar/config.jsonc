@@ -1,0 +1,100 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  "height": 25,
+  "spacing": 5,
+  "modules-left": [
+    "hyprland/workspaces"
+    // "hyprland/window"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "custom/waybar_mpris",
+    "wireplumber",
+    "hyprland/language",
+    "network",
+    "bluetooth",
+    "memory",
+    "tray"
+  ],
+  "custom/waybar_mpris": {
+    "return-type": "json",
+    "exec": "waybar-mpris --position --autofocus --pause ⏸ --play ▶ --order 'SYMBOL:POSITION:TITLE'",
+    "max-length": 50,
+    "on-click": "waybar-mpris --send toggle",
+    // This option will switch between players on right click.
+    "on-click-right": "waybar-mpris --send player-next",
+    // The options below will switch the selected player on scroll
+    // "on-scroll-up": "waybar-mpris --send player-next",
+    // "on-scroll-down": "waybar-mpris --send player-prev",
+    // The options below will go to next/previous track on scroll
+    // "on-scroll-up": "waybar-mpris --send next",
+    // "on-scroll-down": "waybar-mpris --send prev",
+    "escape": true
+  },
+  // "hyprland/window": {
+  //   "format": "-  {}" // <--- these is the default value  
+  // },
+  "hyprland/workspaces": {
+    "format": "<span size='larger'>{icon}</span>",
+    "on-click": "activate",
+    "format-icons": {
+      "active": "●",
+      "default": "○"
+    },
+    "icon-size": 10,
+    "sort-by-number": true,
+    "persistent-workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+    }
+  },
+  "clock": {
+    "format": "{:%d.%m.%Y | %H:%M}"
+  },
+  "wireplumber": {
+    "format": "\udb81\udd7e  {volume}%",
+    "max-volume": 100,
+    "scroll-step": 5
+  },
+  "memory": {
+    "interval": 30,
+    "format": "\uf4bc  {used:0.1f}G"
+  },
+  "network": {
+    "format": "",
+    "format-ethernet": "\udb83\udc9d",
+    "format-wifi": "{icon}",
+    "format-disconnected": "\udb83\udc9c",
+    "format-icons": [
+      "\udb82\udd2f",
+      "\udb82\udd1f",
+      "\udb82\udd22",
+      "\udb82\udd25",
+      "\udb82\udd28"
+    ],
+    "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+    "tooltip-format-ethernet": "{ifname}",
+    "tooltip-format-disconnected": "Disconnected",
+  },
+  "bluetooth": {
+    "format": "\udb80\udcaf",
+    "format-disabled": "\udb80\udcb2",
+    "format-connected": "\udb80\udcb1",
+    "tooltip-format": "{controller_alias}\t{controller_address}",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
+  },
+  "hyprland/language": {
+    "format": "{short}"
+  },
+  "tray": {
+    "icon-size": 16,
+    "spacing": 16
+  }
+}

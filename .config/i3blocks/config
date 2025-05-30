@@ -1,0 +1,71 @@
+# List of valid properties:
+# align
+# color
+# command
+# full_text
+# instance
+# interval
+# label
+# min_width
+# name
+# separator
+# separator_block_width
+# short_text
+# signal
+# urgent
+
+# Global properties
+command=$SCRIPT_DIR/$BLOCK_NAME
+separator_block_width=15
+markup=none
+
+
+# Memory usage
+# The type defaults to "mem" if the instance is not specified.
+
+
+[memory]
+label=SWAP
+instance=swap
+separator=false
+interval=30
+
+# Media player
+
+# Disk usage
+[disk]
+label=HOME
+#DIR=/mnt/data
+interval=30
+
+# CPU usage
+[cpu_usage]
+label=CPU
+interval=10
+min_width=CPU 100.00%
+#separator=false
+
+# Generic media player support
+[mediaplayer]
+instance=vlc,%any,spotify
+command=$SCRIPT_DIR/mediaplayer/mediaplayer
+interval=5
+signal=10
+color=#ec144c
+
+# Volume indicator
+[volume]
+command=$SCRIPT_DIR/volume-pipewire/volume-pipewire
+instance=master
+interval=1
+signal=10
+
+[memory]
+command=$SCRIPT_DIR/memory/memory
+interval=30
+
+# Date Time
+#
+[time]
+command=date '+%Y-%m-%d %H:%M:%S'
+interval=5
