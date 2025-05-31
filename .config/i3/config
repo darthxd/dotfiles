@@ -6,10 +6,11 @@ font pango:CommitMono 10
 exec --no-startup-id i3-auto-tiling
 exec --no-startup-id dunst
 exec --no-startup-id picom --config ~/.config/picom/picom.conf -b
-exec --no-startup-id setxkbmap -option grp:alt_shift_toggle us,br & 
+exec --no-startup-id /usr/bin/setxkbmap -option grp:alt_shift_toggle us,br & 
+exec --no-startup-id /usr/bin/setxkbmap -option "ctrl:nocaps"
 
 # Border customization
-client.focused #ec144c #285577 #ffffff #2e9ef4 #ec144c
+client.focused #6666ff #285577 #ffffff #2e9ef4 #6666ff
 client.focused_inactive #535353 #285577 #ffffff #2e9ef4 #535353
 client.unfocused #535353 #285577 #ffffff #2e9ef4 #535353
 
@@ -168,10 +169,10 @@ bar {
         colors {
                 background #0a0a0a
 
-                focused_workspace  #ec144c           #ec144c           #ffffff
-                active_workspace   #ec144c           #ec144c           #ffffff
+                focused_workspace  #6666ff           #6666ff           #ffffff
+                active_workspace   #bfc0d1           #bfc0d1           #ffffff
                 inactive_workspace #0a0a0a           #0a0a0a           #ffffff
-                urgent_workspace   #ec144c           #0a0a0a           #ffffff
+                urgent_workspace   #bfc0d1           #0a0a0a           #ffffff
             }
 }
 

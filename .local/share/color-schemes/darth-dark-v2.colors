@@ -1,3 +1,8 @@
+[General]
+ColorScheme=BreezeDark
+Name=darth-dark-v2
+shadeSortColumn=true
+
 [ColorEffects%3ADisabled]
 Color=56, 56, 56
 ColorAmount=0
@@ -18,31 +23,28 @@ Enable=false
 IntensityAmount=0
 IntensityEffect=0
 
-[ColorEffects:Inactive]
-ChangeSelectionColor=true
-
 [ColorScheme]
-active_colors=#fff2f4f8, #ff202020, #ffaeaeae, #ff8d8d8d, #ff757575, #ff565656, #fff2f4f8, #ffffffff, #fff2f4f8, #ff111111, #ff0a0a0a, #ff8d8d8d, #ffec144c, #fffcfcfc, #ff1d99f3, #ff9b59b6, #ff161616, #ff000000, #ff161616, #fffcfcfc, #ffa1a9b1, #ffec144c
-disabled_colors=#ff575859, #ff1f1f1f, #ffaeaeae, #ff8d8d8d, #ff757575, #ff565656, #ff5b5c5d, #ffffffff, #ff656567, #ff101010, #ff0a0a0a, #ff8d8d8d, #ff0a0a0a, #ff575859, #ff143e5c, #ff3e2847, #ff151515, #ff000000, #ff161616, #fffcfcfc, #ff404346, #ff0a0a0a
-inactive_colors=#fff2f4f8, #ff202020, #ffaeaeae, #ff8d8d8d, #ff757575, #ff565656, #fff2f4f8, #ffffffff, #fff2f4f8, #ff111111, #ff0a0a0a, #ff8d8d8d, #ff535353, #fff2f4f8, #ff1d99f3, #ff9b59b6, #ff161616, #ff000000, #ff161616, #fffcfcfc, #ffa1a9b1, #ff535353
+active_colors=#ffffffff, #ff161616, #ffaeaeae, #ff8d8d8d, #ff757575, #ff565656, #ffffffff, #ffffffff, #ffffffff, #ff0a0a0a, #ff0a0a0a, #ff8d8d8d, #ff6666ff, #ff000000, #ff00ff77, #ffa670dc, #ff161616, #ff000000, #ff0a0a0a, #ffffffff, #ff4f4f4f, #ffec144c
+disabled_colors=#ff5b5b5b, #ff151515, #ffaeaeae, #ff8d8d8d, #ff757575, #ff565656, #ff5b5b5b, #ffffffff, #ff636363, #ff0a0a0a, #ff0a0a0a, #ff8d8d8d, #ff0a0a0a, #ff5b5b5b, #ff065b2e, #ff3e2c50, #ff151515, #ff000000, #ff0a0a0a, #ffffffff, #ff212121, #ff0a0a0a
+inactive_colors=#ffdedede, #ff161616, #ffaeaeae, #ff8d8d8d, #ff757575, #ff565656, #ffdedede, #ffffffff, #ffdfdfdf, #ff0a0a0a, #ff0a0a0a, #ff8d8d8d, #ff3c3c96, #fff2e1e5, #ff00e472, #ffa166d8, #ff161616, #ff000000, #ff0a0a0a, #ffffffff, #ff4c4c4c, #ff54001c
 
 [Colors%3AButton]
 BackgroundAlternate=30, 87, 116
-BackgroundNormal=32, 32, 32
-DecorationFocus=61, 174, 233
-DecorationHover=61, 174, 233
+BackgroundNormal=22, 22, 22
+DecorationFocus=236, 20, 76
+DecorationHover=236, 20, 76
 ForegroundActive=61, 174, 233
-ForegroundInactive=161, 169, 177
-ForegroundLink=29, 153, 243
+ForegroundInactive=79, 79, 79
+ForegroundLink=0, 255, 119
 ForegroundNegative=218, 68, 83
 ForegroundNeutral=246, 116, 0
-ForegroundNormal=242, 244, 248
+ForegroundNormal=255, 255, 255
 ForegroundPositive=39, 174, 96
-ForegroundVisited=155, 89, 182
+ForegroundVisited=166, 112, 220
 
 [Colors%3AComplementary]
-BackgroundAlternate=30, 87, 116
-BackgroundNormal=42, 46, 50
+BackgroundAlternate=35, 35, 35
+BackgroundNormal=50, 50, 50
 DecorationFocus=61, 174, 233
 DecorationHover=61, 174, 233
 ForegroundActive=61, 174, 233
@@ -61,124 +63,67 @@ ForegroundNegative=236, 20, 76
 
 [Colors%3ASelection]
 BackgroundAlternate=30, 87, 116
-BackgroundNormal=15, 98, 254
-DecorationFocus=61, 174, 233
-DecorationHover=61, 174, 233
+BackgroundNormal=236, 20, 76
+DecorationFocus=236, 20, 76
+DecorationHover=236, 20, 76
 ForegroundActive=252, 252, 252
-ForegroundInactive=161, 169, 177
-ForegroundLink=253, 188, 75
+ForegroundInactive=79, 79, 79
+ForegroundLink=0, 255, 119
 ForegroundNegative=176, 55, 69
 ForegroundNeutral=198, 92, 0
 ForegroundNormal=252, 252, 252
 ForegroundPositive=23, 104, 57
-ForegroundVisited=155, 89, 182
+ForegroundVisited=166, 112, 220
 
 [Colors%3ATooltip]
 BackgroundAlternate=38, 38, 38
-BackgroundNormal=22, 22, 22
-DecorationFocus=61, 174, 233
-DecorationHover=61, 174, 233
+BackgroundNormal=10, 10, 10
+DecorationFocus=236, 20, 76
+DecorationHover=236, 20, 76
 ForegroundActive=61, 174, 233
-ForegroundInactive=161, 169, 177
-ForegroundLink=29, 153, 243
+ForegroundInactive=79, 79, 79
+ForegroundLink=0, 255, 119
 ForegroundNegative=218, 68, 83
 ForegroundNeutral=246, 116, 0
-ForegroundNormal=252, 252, 252
+ForegroundNormal=255, 255, 255
 ForegroundPositive=39, 174, 96
-ForegroundVisited=155, 89, 182
+ForegroundVisited=166, 112, 220
 
 [Colors%3AView]
 BackgroundAlternate=22, 22, 22
-BackgroundNormal=17, 17, 17
-DecorationFocus=61, 174, 233
-DecorationHover=61, 174, 233
+BackgroundNormal=10, 10, 10
+DecorationFocus=236, 20, 76
+DecorationHover=236, 20, 76
 ForegroundActive=61, 174, 233
-ForegroundInactive=161, 169, 177
-ForegroundLink=29, 153, 243
+ForegroundInactive=79, 79, 79
+ForegroundLink=0, 255, 119
 ForegroundNegative=218, 68, 83
 ForegroundNeutral=246, 116, 0
-ForegroundNormal=242, 244, 248
+ForegroundNormal=255, 255, 255
 ForegroundPositive=39, 174, 96
-ForegroundVisited=155, 89, 182
+ForegroundVisited=166, 112, 220
 
 [Colors%3AWindow]
 BackgroundAlternate=38, 38, 38
 BackgroundNormal=10, 10, 10
-DecorationFocus=61, 174, 233
-DecorationHover=61, 174, 233
+DecorationFocus=236, 20, 76
+DecorationHover=236, 20, 76
 ForegroundActive=61, 174, 233
-ForegroundInactive=161, 169, 177
-ForegroundLink=29, 153, 243
+ForegroundInactive=79, 79, 79
+ForegroundLink=0, 255, 119
 ForegroundNegative=238, 83, 150
 ForegroundNeutral=246, 116, 0
-ForegroundNormal=242, 244, 248
+ForegroundNormal=255, 255, 255
 ForegroundPositive=39, 174, 96
-ForegroundVisited=155, 89, 182
-
-[Colors:Button]
-BackgroundNormal=22,22,22
-DecorationFocus=236,20,76
-DecorationHover=236,20,76
-ForegroundInactive=79,79,79
-ForegroundLink=0,255,119
-ForegroundNormal=255,255,255
-ForegroundVisited=166,112,220
-
-[Colors:Complementary]
-BackgroundAlternate=35,35,35
-BackgroundNormal=50,50,50
-
-[Colors:Header]
-BackgroundNormal=22,22,22
-ForegroundNegative=236,20,76
-
-[Colors:Selection]
-BackgroundNormal=236,20,76
-DecorationFocus=236,20,76
-DecorationHover=236,20,76
-ForegroundInactive=79,79,79
-ForegroundLink=0,255,119
-ForegroundVisited=166,112,220
-
-[Colors:Tooltip]
-BackgroundNormal=10,10,10
-DecorationFocus=236,20,76
-DecorationHover=236,20,76
-ForegroundInactive=79,79,79
-ForegroundLink=0,255,119
-ForegroundNormal=255,255,255
-ForegroundVisited=166,112,220
-
-[Colors:View]
-BackgroundNormal=10,10,10
-DecorationFocus=236,20,76
-DecorationHover=236,20,76
-ForegroundInactive=79,79,79
-ForegroundLink=0,255,119
-ForegroundNormal=255,255,255
-ForegroundVisited=166,112,220
-
-[Colors:Window]
-BackgroundNormal=10,10,10
-DecorationFocus=236,20,76
-DecorationHover=236,20,76
-ForegroundInactive=79,79,79
-ForegroundLink=0,255,119
-ForegroundNormal=255,255,255
-ForegroundVisited=166,112,220
-
-[General]
-ColorScheme=BreezeDark
-Name=darth-dark-v2
-shadeSortColumn=true
+ForegroundVisited=166, 112, 220
 
 [KDE]
 contrast=4
 
 [WM]
-activeBackground=22,22,22
-activeBlend=255,255,255
-activeForeground=255,255,255
-inactiveBackground=22,22,22
-inactiveBlend=213,213,213
-inactiveForeground=213,213,213
+activeBackground=22, 22, 22
+activeBlend=255, 255, 255
+activeForeground=255, 255, 255
+inactiveBackground=22, 22, 22
+inactiveBlend=213, 213, 213
+inactiveForeground=213, 213, 213
