@@ -3,7 +3,7 @@
 "ui.background" = { fg = "#ffffff" }
 "ui.text" = { fg = "#a7a7a7" }
 "ui.cursor" = { fg = "#121212", bg = "#d5d5d5" }
-"ui.cursor.normal" = { fg = "#ec144c", bg = "#323232" }
+"ui.cursor.normal" = { fg = "#6666ff", bg = "#323232" }
 "ui.selection" = { bg = "#323232" }
 "ui.linenr" = { fg = "#323232" }
 "ui.linenr.selected" = { fg = "#737373" }
@@ -17,13 +17,13 @@
 "ui.separator" = "#323232"
 
 "comment" = { fg = "#535353" }
-"string" = { fg = "#ec144c" }
+"string" = { fg = "#6666ff" }
 "string.escape" = { fg = "#d5d5d5" }
 "character" = { fg = "#949494" }
-"constant" = { fg = "#ec144c" }
+"constant" = { fg = "#6666ff" }
 "constant.builtin" = { fg = "#d5d5d5" }
-"number" = { fg = "#ec144c" }
-"boolean" = { fg = "#ec144c" }
+"number" = { fg = "#6666ff" }
+"boolean" = { fg = "#6666ff" }
 "float" = { fg = "#d5d5d5" }
 
 "variable" = { fg = "#d5d5d5" }
@@ -33,7 +33,7 @@
 "attribute" = { fg = "#a7a7a7" }
 "function" = { fg = "#ffffff" }
 "function.builtin" = { fg = "#d5d5d5" }
-"function.macro" = { fg = "#ec144c" }
+"function.macro" = { fg = "#6666ff" }
 "function.method" = { fg = "#f5f5f5" }
 "constructor" = { fg = "#f5f5f5" }
 

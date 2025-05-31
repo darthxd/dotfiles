@@ -19,3 +19,4 @@ dotfiles add ~/.xlibinput
 dotfiles add ~/.ytenhancer
 dotfiles add ~/.commands
 dotfiles add ~/.zshenv
+dotfiles add ~/.dfcommands
