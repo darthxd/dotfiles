@@ -8,6 +8,7 @@ exec --no-startup-id dunst
 exec --no-startup-id picom --config ~/.config/picom/picom.conf -b
 exec --no-startup-id /usr/bin/setxkbmap -option grp:alt_shift_toggle us,br & 
 exec --no-startup-id /usr/bin/setxkbmap -option "ctrl:nocaps"
+exec --no-startup-id feh --bg-fill /home/gabrieldarth/Pictures/zero-w.png
 
 # Border customization
 client.focused #6666ff #285577 #ffffff #2e9ef4 #6666ff
@@ -177,5 +178,3 @@ bar {
 }
 
 
-exec --no-startup-id /usr/bin/setxkbmap -option "ctrl:nocaps"
-exec --no-startup-id feh --bg-fill /home/gabrieldarth/Pictures/k.jpg
