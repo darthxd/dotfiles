@@ -53,6 +53,7 @@ vim.keymap.set("n", "<A-l>", ":bn<CR>", {silent = true})
 vim.keymap.set("n", "<A-h>", ":bp<CR>", {silent = true})
 vim.keymap.set("n", "<A-q>", ":Bd<CR>", {silent = true})
 vim.keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>", {silent = true})
+vim.diagnostic.config({virtual_text = true})
 vim.g["diagnostics_active"] = true
 function Toggle_diagnostics()
 	if vim.g.diagnostics_active then
