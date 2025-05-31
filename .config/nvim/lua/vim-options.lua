@@ -4,6 +4,7 @@ vim.opt.relativenumber = true
 vim.opt.numberwidth = 2
 vim.opt.signcolumn = "yes"
 vim.opt.wrap = true
+vim.opt.linebreak = true
 vim.opt.scrolloff = 10
 vim.opt.sidescrolloff = 8
 vim.g.terminal_emulator='kitty'
