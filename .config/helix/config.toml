@@ -18,13 +18,7 @@ n   = "move_prev_word_end"
 # Buffer actions
 A-h = ":bp"
 A-l = ":bn"
-A-w = ":bc"
-
-# Select inside
-A-j = '@t"llmi"'
-A-m = "@t'llmi'"
-A-k = '@t(llmi('
-A-g = '@t{llmi{'
+A-q = ":bc"
 
 # Split actions
 C-h = "jump_view_left"
@@ -46,6 +40,21 @@ C-p = [
 # Vertical and Horizontal split
 '-' = 'hsplit'
 '_' = 'vsplit'
+
+[keys.normal.m]
+# "\"" = "@f\";vmmdi\""
+# "'"  = "@f';vmmdi'"
+# "[" = "@f];vmmdi["
+# "(" = "@f);vmmdi("
+# "<"  = "@f<gt>;vmmdi<lt><gt><left>"
+# "{" = "@f};vmmdi{"
+
+# Select inside
+"\"" = "@t\"llmi\""
+"'" = "@t'llmi'"
+"[" = "@t[llmi["
+"(" = "@t(llmi("
+"{" = "@t{llmi{"
 
 [editor.cursor-shape]
 insert = "bar"
