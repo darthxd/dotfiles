@@ -6,6 +6,7 @@ return {
 		"nvim-tree/nvim-web-devicons",
 	},
 	config = function()
+        vim.wo.fillchars='eob: '
 		require("nvim-tree").setup({
             view = {
                 width = 35,

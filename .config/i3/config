@@ -10,9 +10,9 @@ exec --no-startup-id /usr/bin/setxkbmap -option grp:alt_shift_toggle us,br -opti
 exec --no-startup-id feh --bg-fill /home/gabrieldarth/Pictures/zero-w.png
 
 # Border customization
-client.focused #6666ff #285577 #ffffff #2e9ef4 #6666ff
-client.focused_inactive #535353 #285577 #ffffff #2e9ef4 #535353
-client.unfocused #535353 #285577 #ffffff #2e9ef4 #535353
+client.focused #2d5fff #323232 #ffffff #535353 #2d5fff
+client.focused_inactive #535353 #323232 #ffffff #737373 #535353
+client.unfocused #535353 #323232 #ffffff #737373 #535353
 
 default_border pixel 2
 default_floating_border pixel 2
@@ -40,10 +40,10 @@ floating_modifier $mod
 tiling_drag titlebar
 
 # start a terminal
-bindsym $mod+q exec kitty
+bindsym $mod+Return exec kitty
 
 # kill focused window
-bindsym $mod+w kill
+bindsym $mod+q kill
 
 # Rofi
 bindsym $mod+t exec "sh /home/gabrieldarth/.config/rofi/launcher/launcher.sh"
@@ -169,7 +169,7 @@ bar {
         colors {
                 background #0a0a0a
 
-                focused_workspace  #6666ff           #6666ff           #ffffff
+                focused_workspace  #2d5fff           #2d5fff           #ffffff
                 active_workspace   #bfc0d1           #bfc0d1           #ffffff
                 inactive_workspace #0a0a0a           #0a0a0a           #ffffff
                 urgent_workspace   #bfc0d1           #0a0a0a           #ffffff

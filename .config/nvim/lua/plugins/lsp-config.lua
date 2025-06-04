@@ -31,6 +31,8 @@ return {
 			local util = require("lspconfig/util")
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
+            vim.keymap.set('n', '<leader>r', vim.diagnostic.goto_next)
+
             -- JetBrains Kotlin LSP
             configs.kotlin_lsp = {
                 default_config = {

@@ -41,7 +41,7 @@ return {
 				preset = "minimal", -- All of your `setup(opts)` will go here
 				colors = {
 					background = "#161616",
-	                primary = "#6666ff", -- #ff0088
+	                primary = "#2d5fff", -- #ff0088
 				},
 			},
 		},
