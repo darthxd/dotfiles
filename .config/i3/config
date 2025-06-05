@@ -5,6 +5,7 @@ font pango:CommitMono 10
 # Starting proccesses
 exec --no-startup-id i3-auto-tiling
 exec --no-startup-id dunst
+exec --no-startup-id xset -dpms s off
 exec --no-startup-id picom --config ~/.config/picom/picom.conf -b
 exec --no-startup-id /usr/bin/setxkbmap -option grp:alt_shift_toggle us,br -option "ctrl:nocaps"
 exec --no-startup-id feh --bg-fill /home/gabrieldarth/Pictures/zero-w.png
