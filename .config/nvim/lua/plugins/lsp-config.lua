@@ -47,6 +47,7 @@ return {
 			lspconfig.eslint.setup({ capabilities = capabilities })
 			lspconfig.ts_ls.setup({ capabilities = capabilities })
 			lspconfig.cssls.setup({ capabilities = capabilities })
+			lspconfig.jsonls.setup({ capabilities = capabilities })
 			lspconfig.omnisharp.setup({ capabilities = capabilities })
 			lspconfig.rust_analyzer.setup({ capabilities = capabilities })
             lspconfig.kotlin_lsp.setup({capabilities = capabilities})

@@ -9,7 +9,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xset -dpms s off
 exec --no-startup-id picom --config ~/.config/picom/picom.conf -b
 exec --no-startup-id /usr/bin/setxkbmap -option grp:alt_shift_toggle us,br -option "ctrl:nocaps"
-exec --no-startup-id feh --bg-fill /home/gabrieldarth/Pictures/zero-w.png
+exec --no-startup-id feh --bg-fill /home/gabrieldarth/Pictures/bocchi1-w.jpg
 
 # Border customization
 client.focused #2d5fff #323232 #ffffff #535353 #2d5fff
