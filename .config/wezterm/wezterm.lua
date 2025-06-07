@@ -8,25 +8,25 @@ local config = wezterm.config_builder()
 
 -- For example, changing the initial geometry for new windows:
 config.initial_cols = 100
-config.initial_rows = 40
+config.initial_rows = 35
 
 config.enable_tab_bar = false
 
 -- or, changing the font size and color scheme.
-config.font_size = 12
-config.font = wezterm.font("Liga SFMono Nerd Font", { weight = "Medium"}) 
+config.font_size = 14
+config.font = wezterm.font("CommitMono", { weight = "Regular"}) 
 config.colors = {
     foreground = '#d5d5d5',
     background = '#161616',
-    cursor_bg = '#ec144c',
+    cursor_bg = '#2d5fff',
     cursor_fg = '#161616',
-    cursor_border = '#ec144c',
+    cursor_border = '#2d5fff',
     selection_fg = '121212',
     selection_bg = '#b0b0b0',
     split = '#ec144c',
     ansi = {
       '#121212',
-      '#ec144c',
+      '#2d5fff',
       '#00ff77',
       '#ffffff',
       '#b0b0b0',
@@ -36,8 +36,8 @@ config.colors = {
     },
     brights = {
       '#737373',
-      '#ec144c',
-      '#ec144c',
+      '#2d5fff',
+      '#2d5fff',
       '#fdfdfd',
       '#bebebe',
       '#939393',

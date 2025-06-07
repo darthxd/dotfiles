@@ -86,7 +86,7 @@ eval "$(zoxide init zsh)"
 
 # Environment variables
 
-export EDITOR=hx
+export EDITOR=vim
 export HELIX_RUNTIME=~/src/helix/runtime
 export PATH=$PATH:~/.local/bin
 

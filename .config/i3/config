@@ -1,6 +1,6 @@
 # Setting default modifier and font
 set $mod Mod4
-font pango:CommitMono 10
+font pango:CommitMono 12
 
 # Starting proccesses
 exec --no-startup-id i3-auto-tiling
@@ -42,13 +42,14 @@ floating_modifier $mod
 tiling_drag titlebar
 
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec wezterm
 
 # kill focused window
 bindsym $mod+q kill
 
 # Rofi
 bindsym $mod+t exec "sh /home/gabrieldarth/.config/rofi/launcher/launcher.sh"
+bindsym Insert exec "sh /home/gabrieldarth/.config/rofi/launcher/launcher.sh"
 bindsym $mod+Shift+e exec "sh /home/gabrieldarth/.config/rofi/powermenu/powermenu.sh"
 bindsym $mod+Shift+s exec "sh /home/gabrieldarth/.config/rofi/applets/bin/screenshot.sh"
 bindsym Print exec "sh /home/gabrieldarth/.config/rofi/applets/bin/screenshot.sh"
