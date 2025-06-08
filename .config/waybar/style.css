@@ -1,9 +1,9 @@
 @define-color foreground #ffffff;
-@define-color foreground-inactive #ec144c;
+@define-color foreground-inactive #2d5fff;
 @define-color background #0a0a0a;
 
 * {
-  font-family: Liga SFMono Nerd Font;
+  font-family: CommitMono;
   font-size: 14px;
   padding: 0;
   margin: 0;
@@ -42,5 +42,5 @@
 }
 
 #custom-waybar_mpris {
-  color: #ec144c;
+  color: #2d5fff;
 }
