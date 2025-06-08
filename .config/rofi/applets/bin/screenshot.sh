@@ -87,29 +87,34 @@ countdown () {
 
 # take shots
 shotnow () {
-	cd ${dir} && sleep 0.5 && maim -u -f png | copy_shot
+  hyprshot -m output -m active
+	# cd ${dir} && sleep 0.5 && maim -u -f png | copy_shot
 	notify_view
 }
 
 shot5 () {
 	countdown '5'
-	sleep 1 && cd ${dir} && maim -u -f png | copy_shot
+  hyprshot -m output -m active
+	# sleep 1 && cd ${dir} && maim -u -f png | copy_shot
 	notify_view
 }
 
 shot10 () {
 	countdown '10'
-	sleep 1 && cd ${dir} && maim -u -f png | copy_shot
+  hyprshot -m output -m active
+	# sleep 1 && cd ${dir} && maim -u -f png | copy_shot
 	notify_view
 }
 
 shotwin () {
-	cd ${dir} && maim -u -f png -i `xdotool getactivewindow` | copy_shot
+  hyprshot -m window
+	# cd ${dir} && maim -u -f png -i `xdotool getactivewindow` | copy_shot
 	notify_view
 }
 
 shotarea () {
-	cd ${dir} && maim -u -f png -s -b 2 -c 0.35,0.55,0.85,0.25 -l | copy_shot
+  hyprshot -m region
+	# cd ${dir} && maim -u -f png -s -b 2 -c 0.35,0.55,0.85,0.25 -l | copy_shot
 	notify_view
 }
 

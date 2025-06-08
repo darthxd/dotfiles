@@ -1,7 +1,7 @@
 {
   "layer": "top",
   "position": "bottom",
-  "height": 25,
+  "height": 30,
   "spacing": 5,
   "modules-left": [
     "hyprland/workspaces"
@@ -11,12 +11,12 @@
     "clock"
   ],
   "modules-right": [
-    "custom/waybar_mpris",
-    "wireplumber",
+    //"custom/waybar_mpris",
     "hyprland/language",
-    "network",
+    "wireplumber",
+    "battery",
     "bluetooth",
-    "memory",
+    "network",
     "tray"
   ],
   "custom/waybar_mpris": {
@@ -44,7 +44,7 @@
       "active": "●",
       "default": "○"
     },
-    "icon-size": 10,
+    "icon-size": 14,
     "sort-by-number": true,
     "persistent-workspaces": {
       "1": [],
@@ -93,6 +93,21 @@
   "hyprland/language": {
     "format": "{short}"
   },
+"battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-full": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
   "tray": {
     "icon-size": 16,
     "spacing": 16
