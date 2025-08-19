@@ -1,0 +1,88 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-q": [
+        "pane::CloseActiveItem",
+        {
+          "close_pinned": false
+        }
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-shift-h": "pane::SwapItemLeft"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-shift-l": "pane::SwapItemRight"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-h": "pane::ActivatePreviousItem"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-l": "pane::ActivateNextItem"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-l": "workspace::ActivatePaneRight"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-k": "workspace::ActivatePaneUp"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-j": "workspace::ActivatePaneDown"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "space v": "pane::SplitRight"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "ctrl-/": "workspace::ToggleBottomDock"
+    }
+  }
+]
